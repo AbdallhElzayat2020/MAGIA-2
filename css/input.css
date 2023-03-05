@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .main-btn{
+        @apply w-fit uppercase bg-main-blue py-3 px-10 tracking-widest rounded-xl  self-center md:self-start hover:bg-blue-600 transition-all duration-300;
+    }
+}
